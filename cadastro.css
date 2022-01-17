@@ -1,0 +1,106 @@
+body{
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: linear-gradient(#04151f, #226f54 45%);
+	padding: 20px 0;
+}
+
+.imagemlista{
+
+	width: 23%;
+
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+nav{
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #fefae0;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	color: #56cfe1;
+}
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+
+form label, form p{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 10px;
+	width: 40%;
+}
+
+.div-sexo{
+
+	margin: 20px 0px;
+}
+
+.config-concluircadastro{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 20px;
+	padding: 10px 10px;
+	width: 45%;
+	background:#6a994e;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.config-concluircadastro:hover{
+	background: darkgreen;
+}
+
+footer{
+	text-align: center;
+	background: url("fundo rodape.jpg");
+	padding: 40px 0;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	font-size: 13px;
+	
+}
+
+
+
+

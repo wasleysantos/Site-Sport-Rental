@@ -1,0 +1,148 @@
+body{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: linear-gradient(#04151f, #226f54 45%);
+	padding: 20px 0;
+}
+
+main{
+
+	background:linear-gradient(#fff0f3 45%, black);
+}
+
+.imagemlista{
+
+	width: 23%;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+nav{
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #fefae0;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	color: #56cfe1;
+}
+
+.catalogodeesportes {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.catalogodeesportes li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-top: 10px solid #000000;
+	border-radius: 10px 30px 40px 50px;
+
+}
+
+.catalogodeesportes li:hover{
+	color: #56cfe1;
+	border-color: #56cfe1;
+
+}
+
+.catalogodeesportes li:active{
+	color: #088c19;
+	border-color: #088c19;
+
+}
+
+.catalogodeesportes li:hover h2{
+
+	font-size: 40px;
+}
+
+.catalogodeesportes li:hover .precoesporte{
+	font-size: 30px;
+	color: #56cfe1;
+}
+
+.catalogodeesportes h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #6c757d;
+}
+
+.precoesporte{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #6c757d;
+	margin-top: 10px;
+}
+
+.QuadrasMural{
+	display: inline-block;
+	width: 100%;
+}
+
+.mapa{
+	
+	text-align: center;
+	margin: 0 30px 30px;
+}
+
+.titulo-principal{
+	color: #000000;
+	font-weight: bold;
+	font-size: 28px;
+	margin: 10px;
+}
+
+footer{
+	text-align: center;
+	background: url("fundo rodape.jpg");
+	padding: 40px 0;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	font-size: 13px;
+	
+}
+
+
+
+
